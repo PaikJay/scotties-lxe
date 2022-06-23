@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ @font-face {
+  font-family: 'fa-brands';
+  src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.woff') format('woff');
+  src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.eot') format('embedded-opentype'); 
+  src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.woff2') format('woff2');
+  src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.ttf') format('truetype');
+  src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.svg') format('svg');
+ }
