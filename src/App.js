@@ -147,7 +147,6 @@ export default class App extends Component {
     
     <section id="testimonials" class="tm-section-pad-top tm-parallax-2">      
     <AboutPage />
- 
     </section>
     
     <section id="gallery" class="tm-section-pad-top">

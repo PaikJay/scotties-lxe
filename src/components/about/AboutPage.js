@@ -10,8 +10,8 @@ export const AboutPage = () => {
           <h2 class="text-white text-center mb-4 tm-section-title">About Me</h2>
           <div class="mx-auto tm-gallery-container tm-gallery-container-2">
             <div class="tm-testimonials-carousel">
-              <figure class="tm-testimonial-item">
-                <img src="testimonial-img-02.jpeg" alt="Image" class="img-fluid mx-auto" />
+              <figure class="tm-testimonial-item tm-image">
+                <img src="testimonial-img-02.jpeg" alt="testimonial" class="img-fluid mx-auto " />
                 <blockquote></blockquote>
                 <figcaption></figcaption>
               </figure>
