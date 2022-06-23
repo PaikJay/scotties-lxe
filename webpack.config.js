@@ -3,7 +3,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: path.join(__dirname, 'src', 'index'),
+  entry: {
+    index:path.join(__dirname,'src','index.js')
+    }, 
   watch: true,
   output: {
     path: path.join(__dirname, 'dist'),
@@ -72,7 +74,7 @@ module.exports = {
   },
   plugins: [    
     new HtmlWebpackPlugin({      
-      template: path.resolve(__dirname, 'public','index.html'),
+      template: path.resolve(__dirname, 'index.html'),
       favicon: "public/favicon.ico"
     }) 
 ]
