@@ -31,6 +31,8 @@
     "webpack": "webpack --mode production",
     "clean": "rimraf build"
   },
+  "homepage": "/"
+  ,
   "eslintConfig": {
     "extends": [
       "react-app",

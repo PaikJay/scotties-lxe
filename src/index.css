@@ -19,3 +19,12 @@ code {
   src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.ttf') format('truetype');
   src: url('/public/fontawesome-5.5/webfonts/fa-brands-400.svg') format('svg');
  }
+
+ @font-face {
+  font-family: 'slick-brands';
+  src: url('/public/slick/fonts/slick.eot');
+  src: url('/public/slick/fonts/slick.svg');
+  src: url('/public/slick/fonts/slick.woff');
+  src: url('/public/slick/fonts/slick.ttf');
+ }
+
