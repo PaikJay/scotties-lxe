@@ -17,7 +17,7 @@ const apiPort = process.env.PORT || 5003
 
 app.use(express.urlencoded({ extended: true }))
 if (process.env.NODE_ENV === `production`) {
-  app.use(express.static(path.resolve(__dirname,'../../dist')));
+  app.use(express.static(path.resolve(__dirname,'../../docs')));
   app.get('/*',(req,res)=>{
       res.sendFile(path.resolve('index.html'));
   });
