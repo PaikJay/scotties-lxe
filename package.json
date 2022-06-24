@@ -29,7 +29,7 @@
     "start-dev": "webpack-dev-server --mode development --open",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start\"",
     "webpack": "webpack --mode production",
-    "clean": "rimraf build"
+    "clean": "rimraf dist"
   },
   "homepage": "/"
   ,
