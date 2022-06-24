@@ -3,14 +3,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: process.env.NODE_ENV || 'development',  
   entry: {
     index:path.join(__dirname,'src','index.js')
     }, 
   watch: true,
   output: {
-    path: path.join(__dirname, 'dist'),
-    publicPath: '/dist/',
+    path: path.join(__dirname, 'docs'),
+    publicPath: '/docs',
     filename: "bundle.js",
     chunkFilename: '[name].js'
   },
@@ -70,7 +70,7 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    contentBase: path.join(__dirname, '/dist/'),
+    contentBase: path.join(__dirname, '/docs/'),
     inline: true,
     host: 'localhost',
     port: 8080,
