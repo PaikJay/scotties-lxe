@@ -9,8 +9,8 @@ module.exports = {
     }, 
   watch: true,
   output: {
-    path: path.join(__dirname, 'docs'),
-    publicPath: '/docs/',
+    path: path.join(__dirname, 'dist'),
+    publicPath: '/dist/',
     filename: "bundle.js",
     chunkFilename: '[name].js'
   },
@@ -70,7 +70,7 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    contentBase: path.join(__dirname, '/docs/'),
+    contentBase: path.join(__dirname, '/dist/'),
     inline: true,
     host: 'localhost',
     port: 8080,
