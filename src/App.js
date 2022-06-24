@@ -115,7 +115,7 @@ export default class App extends React.Component {
                         <p className="mb-4 tm-intro-text">
                           Studies on vairous beliefs, and 
                           forms of worship
-                          <strong>Christianity, Judaism, Greek, Sumarian, Ayurvidic</strong>
+                          <strong> Christianity, Judaism, Greek, Sumarian, Kemetic Orthodoxy</strong>
                           and the effect on the world economy, politics, 
                           moral fabric
                       </p>
