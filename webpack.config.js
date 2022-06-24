@@ -10,9 +10,10 @@ module.exports = {
   watch: true,
   output: {
     path: path.join(__dirname, 'docs'),
-    publicPath: '/docs',
+    publicPath: '/docs/',
     filename: "bundle.js",
-    chunkFilename: '[name].js'
+    chunkFilename: '[name].js',
+    clean: true
   },
   module: {
     rules: [{
