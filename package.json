@@ -31,7 +31,7 @@
     "webpack": "webpack --mode production",
     "clean": "rimraf docs"
   },
-  "homepage": "/"
+  "homepage": "https://paikjay.github.io/scotties-lxe/ "
   ,
   "eslintConfig": {
     "extends": [

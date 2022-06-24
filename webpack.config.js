@@ -57,7 +57,9 @@ module.exports = {
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
       loader: 'file-loader',
       options: {
-        limit: 10000
+        limit: 10000,
+        name: '[name].[ext]',
+        outputPath: 'assets/fonts',
       }
     }
   ]
