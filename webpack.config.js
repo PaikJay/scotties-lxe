@@ -12,8 +12,8 @@ module.exports = {
     path: path.join(__dirname, 'docs'),
     publicPath: '/docs/',
     filename: "bundle.js",
-    chunkFilename: '[name].js',
-    clean: true
+    chunkFilename: '[name].js'
+    
   },
   module: {
     rules: [{
