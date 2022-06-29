@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/scotties-lxe%20/static/css/main.86d4b817.css",
-    "main.js": "/scotties-lxe%20/static/js/main.ef78cd37.js",
+    "main.js": "/scotties-lxe%20/static/js/main.f2e76454.js",
     "static/media/fa-brands-400.svg": "/scotties-lxe%20/static/media/fa-brands-400.811325561af5fe5af4b6.svg",
     "static/media/infinite-loop-01.jpg": "/scotties-lxe%20/static/media/infinite-loop-01.be944baac95166cfec8a.jpg",
     "static/media/fa-brands-400.eot": "/scotties-lxe%20/static/media/fa-brands-400.dbcc7416a7ea01ed1018.eot",
@@ -14,13 +14,13 @@
     "static/media/slick.svg": "/scotties-lxe%20/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/scotties-lxe%20/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/scotties-lxe%20/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/scotties-lxe%20/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/scotties-lxe%20/index.html",
+    "static/media/slick.woff": "/scotties-lxe%20/static/media/slick.295183786cd8a1389865.woff",
     "main.86d4b817.css.map": "/scotties-lxe%20/static/css/main.86d4b817.css.map",
-    "main.ef78cd37.js.map": "/scotties-lxe%20/static/js/main.ef78cd37.js.map"
+    "main.f2e76454.js.map": "/scotties-lxe%20/static/js/main.f2e76454.js.map"
   },
   "entrypoints": [
     "static/css/main.86d4b817.css",
-    "static/js/main.ef78cd37.js"
+    "static/js/main.f2e76454.js"
   ]
 }
